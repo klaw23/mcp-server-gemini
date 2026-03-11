@@ -295,11 +295,7 @@ class EnhancedStdioMCPServer {
               default: 'gemini-2.5-flash'
             }
           },
-          required: ['prompt'],
-          oneOf: [
-            { required: ['imageUrl'] },
-            { required: ['imageBase64'] }
-          ]
+          required: ['prompt']
         }
       },
       {
